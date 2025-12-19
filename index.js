@@ -6,6 +6,9 @@ const { PNG } = require('pngjs')
 const server = createServer({
   host: '0.0.0.0',
   port: 19132,
+
+  //対応バージョンを随時変更してください
+  version: '1.21.124',
   offline: false,
   encryption: true
 })
